@@ -46,7 +46,9 @@
 }
 
 - (void)drawTile:(KMTileIndex *)idx inContext:(CGContextRef)ctx
-{    
+{   
+//    NSLog(@">>> %@", idx);
+    
     NSString *tileFolder = [self.mapCacheDirectory stringByAppendingPathComponent:[NSString pathWithComponents:[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", idx.zoom],
                                                                                                                 [NSString stringWithFormat:@"%d", idx.x], nil]]];
     NSString *localPath = [tileFolder stringByAppendingPathComponent:[NSString stringWithFormat:@"%d.png", idx.y]];

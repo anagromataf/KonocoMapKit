@@ -65,7 +65,7 @@
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"KMIndex {zoom:%d; x:%d; y:%d}", _zoom, _x, _y];
+    return [NSString stringWithFormat:@"<KMIndex zoom: %d, x: %d, y:%d>", _zoom, _x, _y];
 }
 
 @end

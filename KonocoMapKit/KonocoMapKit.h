@@ -34,6 +34,3 @@
 #import <KonocoMapKit/KMAnnotation.h>
 #import <KonocoMapKit/KMPointAnnotation.h>
 #import <KonocoMapKit/KMAnnotationView.h>
-
-
-

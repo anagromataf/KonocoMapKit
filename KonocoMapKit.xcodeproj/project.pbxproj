@@ -213,6 +213,7 @@
 		F6963B111390232600695981 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Konoco;
 			};
 			buildConfigurationList = F6963B141390232600695981 /* Build configuration list for PBXProject "KonocoMapKit" */;
@@ -320,6 +321,7 @@
 				INFOPLIST_FILE = "KonocoMapKit/KonocoMapKit-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "./**";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -339,6 +341,7 @@
 				INFOPLIST_FILE = "KonocoMapKit/KonocoMapKit-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "./**";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;

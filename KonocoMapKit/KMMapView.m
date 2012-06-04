@@ -380,7 +380,7 @@ KMMapRegion mapRegionFromCoordinateRegion(KMCoordinateRegion coordinateRegion);
     NSUInteger z = log2(transform.a);
     NSUInteger x = -transform.tx / self.baseRenderer.tileSize.width;
     NSUInteger y = pow(2, z) + (transform.ty / self.baseRenderer.tileSize.height) - 1;
-        
+    
     KMTileIndex *idx = [[KMTileIndex alloc] initWithZoom:z x:x y:y];
     
     [kmLayer.mapLayer drawTile:idx inContext:ctx];
